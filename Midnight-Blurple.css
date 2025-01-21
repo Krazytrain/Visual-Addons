@@ -58,28 +58,28 @@
 ==================================================*/
 
     /* color of status indicators and window controls */
-    --online-indicator: hsl(190, 70%, 48%); /* change to #23a55a for default green */
-    --dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-    --idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-    --streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+    --online-indicator: hsl(145, 65%, 39%); /* change to #23a55a for default green */
+    --dnd-indicator: hsl(359, 86%, 60%); /* change to #f23f43 for default red */
+    --idle-indicator: hsl(40, 86%, 57%); /* change to #f0b232 for default yellow */
+    --streaming-indicator: hsl(262, 47%, 40%); /* change to #593695 for default purple */
     --offline-indicator: hsl(223, 6%, 53%); /* change to #80848e for default gray */
 
     /* accent colors */
-    --accent-1: hsl(190, 70%, 60%); /* links */
-    --accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
-    --accent-3: hsl(190, 70%, 42%); /* accent buttons */
-    --accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
-    --accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
-    --mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
-    --mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+    --accent-1: hsl(235, 100%, 70%); /* links */
+    --accent-2: hsl(235, 83%, 59%); /* general unread/mention elements */
+    --accent-3: hsl(235, 83%, 59%); /* accent buttons */
+    --accent-4: hsl(235, 86%, 65%); /* accent buttons when hovered */
+    --accent-5: hsl(235, 68%, 53%); /* accent buttons when clicked */
+    --mention: hsl(235, 86%, 65%, .2); /* mentions & mention messages */
+    --mention-hover: hsl(235, 86%, 65%, .1); /* mentions & mention messages */
 
     /* text colors */
-    --text-0: white; /* text on colored elements */
-    --text-1: var(--text-2); /* other normally white text */
-    --text-2: hsl(220, 25%, 70%); /* headings and important text */
-    --text-3: hsl(220, 15%, 60%); /* normal text */
-    --text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-    --text-5: hsl(220, 15%, 45%); /* muted channels/chats and timestamps */
+    --text-0: var(--text-1); /* text on colored elements */
+    --text-1: hsl(240, 40%, 95%); /* bright text on colored elements */
+    --text-2: hsl(240, 40%, 84%); /* headings and important text */
+    --text-3: hsl(240, 20%, 87%); /* normal text */
+    --text-4: hsl(240, 13%, 65%); /* icon buttons and channels */
+    --text-5: hsl(240, 13%, 45%); /* muted channels/chats and timestamps */
 
     /* Message indicator colors */
     --indicator-hover: var(--hover); /* Hover color */
@@ -99,11 +99,9 @@
     /* background and dark colors */
     --bg-1: hsl(234, 13%, 31%); /* dark buttons when clicked */
     --bg-2: hsl(237, 16%, 23%); /* dark buttons */
-    --bg-3: hsl(240, 21%, 12%); /* spacing, secondary elements */
-    --bg-4: hsl(240, 21%, 15%); /* main background color */
-    --hover: hsla(237, 18%, 53%, 0.1); /* channels and buttons when hovered */
-    --active: hsla(235, 15%, 53%, 0.0); /* channels and buttons when clicked or selected */
+    --bg-3: hsl(240, 18%, 8%); /* spacing, secondary elements */
+    --bg-4: hsl(240, 19%, 13.5%); /* main background color */
+    --hover: hsla(var(--hover-v-hsl), 0.125); /* channels and buttons when hovered */
+    --active: hsla(var(--active-v-hsl), 0.25); /* channels and buttons when clicked or selected */
     --message-hover: hsla(240, 0%, 0%, 0.1); /* messages when hovered */
 }
-
-
