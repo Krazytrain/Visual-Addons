@@ -17,8 +17,8 @@
 
     /* Chat bar buttons */
     --gift-button: none;
-    --sticker-button: none;
-    --gif-button: none;
+    --sticker-button: block;
+    --gif-button: block;
     --emoji-button: block;
     --message-options-button: block;
     --app-launcher-button: block;
