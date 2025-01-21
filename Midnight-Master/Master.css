@@ -1,15 +1,15 @@
 /*==================================================
 =                     Master CSS                   =
 ==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight/Theme.css');
+@import url('https://krazytrain.github.io/Midnight/Midnight-Master/Theme.css');
 /*==================================================
 =                    Addons Links                  =
 ==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight/Addons-Links.css');
+@import url('https://krazytrain.github.io/Midnight/Midnight-Master/Addons-Links.css');
 /*==================================================
 =                    Bug Fixes                     =
 ==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight/Bug Fixes.css');
+@import url('https://krazytrain.github.io/Midnight/Midnight-Master/Bug Fixes.css');
 
 	/* Version Number */
 :root {
