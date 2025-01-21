@@ -58,7 +58,7 @@
 ==================================================*/
 
     /* color of status indicators and window controls */
-    --online-indicator: hsl(145, 65%, 39%); /* change to #23a55a for default green */
+    --online-indicator: hsl(235, 83%, 59%); /* change to #23a55a for default green */
     --dnd-indicator: hsl(359, 86%, 60%); /* change to #f23f43 for default red */
     --idle-indicator: hsl(40, 86%, 57%); /* change to #f0b232 for default yellow */
     --streaming-indicator: hsl(262, 47%, 40%); /* change to #593695 for default purple */
@@ -86,9 +86,9 @@
     --indicator-unread-border: hsl(223, 6%, 53%); /* Border of unread */
     --indicator-unread-background: hsl(223, 6%, 53%, 0.3); /* Background of unread */
     --indicator-unread-hover-background: hsl(223, 6%, 53%, 0.2); /* Hover background of unread */
-    --indicator-unread-mention-border: hsl(190, 70%, 48%); /* Border of mention */
-    --indicator-unread-mention-background: hsl(190, 70%, 48%, 0.3); /* Background of mention */
-    --indicator-unread-mention-hover-background: hsl(190, 70%, 48%, 0.2); /* Hover background of mention */
+    --indicator-unread-mention-border: hsl(235, 83%, 59%); /* Border of mention */
+    --indicator-unread-mention-background: hsl(235, 83%, 59%, 0.3); /* Background of mention */
+    --indicator-unread-mention-hover-background: hsl(235, 83%, 59%, 0.2); /* Hover background of mention */
     --indicator-selected-border: hsl(224, 19%, 57%); /* Border of selected */
     --indicator-selected-background: hsla(224, 19%, 57%, 0.5); /* Background of selected */
     --indicator-selected-hover-background: hsl(224, 19%, 57%, 0.4); /* Hover background of selected */
@@ -101,7 +101,7 @@
     --bg-2: hsl(237, 16%, 23%); /* dark buttons */
     --bg-3: hsl(240, 18%, 8%); /* spacing, secondary elements */
     --bg-4: hsl(240, 19%, 13.5%); /* main background color */
-    --hover: hsla(var(--hover-v-hsl), 0.125); /* channels and buttons when hovered */
-    --active: hsla(var(--active-v-hsl), 0.25); /* channels and buttons when clicked or selected */
+    --hover: hsla(237, 18%, 53%, 0.1); /* channels and buttons when hovered */
+    --active: hsla(235, 15%, 53%, 0.0); /* channels and buttons when clicked or selected */
     --message-hover: hsla(240, 0%, 0%, 0.1); /* messages when hovered */
 }
