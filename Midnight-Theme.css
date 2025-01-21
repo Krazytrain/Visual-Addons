@@ -82,7 +82,7 @@
     --text-5: hsl(220, 15%, 45%); /* muted channels/chats and timestamps */
 
     /* Message indicator colors */
-	--indicator-hover: var(--hover); /* Hover color */
+    --indicator-hover: var(--hover); /* Hover color */
     --indicator-unread-border: hsl(223, 6%, 53%); /* Border of unread */
     --indicator-unread-background: hsl(223, 6%, 53%, 0.3); /* Background of unread */
     --indicator-unread-hover-background: hsl(223, 6%, 53%, 0.2); /* Hover background of unread */
