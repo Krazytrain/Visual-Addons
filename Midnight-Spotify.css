@@ -1,5 +1,5 @@
 /**
- * @name Discord Midnight Biscuit
+ * @name Discord Midnight Spotify
  * @author Krazytrain
  * @description A well balanced, customizable midnight Discord theme with some addons.
  * @invite rMJ7sNatA2
@@ -9,7 +9,7 @@
 ==================================================*/
 @import url('https://krazytrain.github.io/Midnight/Midnight-Master/Master.css');
 :root { 
-    --theme-name: 'Biscuit';
+    --theme-name: 'Spotify';
 /*=================================================
 =               Hide Button Options               =
 =     If you want to hide a button put "none"     =
@@ -59,51 +59,50 @@
 ==================================================*/
 
     /* color of status indicators and window controls */
-    --online-indicator: #d0d694; /* change to #23a55a for default green */
-    --dnd-indicator: #cf223e; /* change to #f23f43 for default red */
-    --idle-indicator: #e39c45; /* change to #f0b232 for default yellow */
-    --streaming-indicator: #614f76; /* change to #593695 for default purple */
+    --online-indicator: hsl(141, 76%, 52%); /* change to #23a55a for default green */
+    --dnd-indicator: hsl(0, 76%, 52%); /* change to #f23f43 for default red */
+    --idle-indicator: hsl(40, 76%, 52%); /* change to #f0b232 for default yellow */
+    --streaming-indicator: hsl(260, 76%, 56%); /* change to #593695 for default purple */
 
     /* accent colors */
-    --accent-1: hsl(268, 20%, 65%); /* links */
-    --accent-2: hsl(268, 20%, 60%); /* general unread/mention elements */
-    --accent-3: hsl(268, 20%, 50%); /* accent buttons */
-    --accent-4: hsl(268, 20%, 39%); /* accent buttons when hovered */
-    --accent-5: hsl(268, 20%, 34%); /* accent buttons when clicked */
-    --mention: hsla(268, 20%, 39%, 0.1); /* mentions & mention messages */
-    --mention-hover: hsla(268, 20%, 39%, 0.05); /* mentions & mention messages when hovered */
+    --accent-1: hsl(141, 80%, 70%); /* links */
+    --accent-2: hsl(141, 76%, 52%); /* general unread/mention elements */
+    --accent-3: hsl(141, 76%, 48%); /* accent buttons */
+    --accent-4: hsl(141, 71%, 41%); /* accent buttons when hovered */
+    --accent-5: hsl(141, 64%, 34%); /* accent buttons when clicked */
+    --mention: hsla(141, 76%, 52%, 0.06); /* mentions & mention messages */
+    --mention-hover: hsla(141, 76%, 52%, 0.03); /* mentions & mention messages when hovered */
 
     /* text colors */
-    --text-0: var(--text-2); /* text on colored elements */
-    --text-1: hsl(24, 31%, 80%); /* other normally white text */
-    --text-2: hsl(30, 100%, 89%); /* headings and important text */
-    --text-3: hsl(24, 31%, 80%); /* normal text */
-    --text-4: hsl(0, 12%, 66%); /* icon buttons and channels */
-    --text-5: hsl(0, 12%, 56%); /* muted channels/chats and timestamps */
+    --text-0: #121212; /* text on colored elements */
+    --text-1: #ffffff; /* other normally white text */
+    --text-2: #ffffff; /* headings and important text */
+    --text-3: #b3b3b3; /* normal text */
+    --text-4: #797979; /* icon buttons and channels */
+    --text-5: #3f3f3f; /* muted channels/chats and timestamps */
 
     /* Message indicator colors */
     --indicator-hover: var(--hover); /* Hover color */
-    --indicator-unread-border: hsl(223, 6%, 53%); /* Border of unread */
-    --indicator-unread-background: hsl(223, 6%, 53%, 0.3); /* Background of unread */
-    --indicator-unread-hover-background: hsl(223, 6%, 53%, 0.2); /* Hover background of unread */
-    --indicator-unread-mention-border: hsl(268, 20%, 60%); /* Border of mention */
-    --indicator-unread-mention-background: hsl(268, 20%, 60%, 0.3); /* Background of mention */
-    --indicator-unread-mention-hover-background: hsl(268, 20%, 60%, 0.2); /* Hover background of mention */
-    --indicator-selected-border: hsl(268, 19%, 57%); /* Border of selected */
-    --indicator-selected-background: hsla(268, 19%, 57%, 0.5); /* Background of selected */
-    --indicator-selected-hover-background: hsl(268, 19%, 57%, 0.4); /* Hover background of selected */
+    --indicator-unread-border: hsl(228, 4%, 26%); /* Border of unread */
+    --indicator-unread-background: hsl(228, 4%, 26%, 0.3); /* Background of unread */
+    --indicator-unread-hover-background: hsl(228, 4%, 26%, 0.2); /* Hover background of unread */
+    --indicator-unread-mention-border: hsl(141, 76%, 52%); /* Border of mention */
+    --indicator-unread-mention-background: hsl(141, 76%, 52%, 0.3); /* Background of mention */
+    --indicator-unread-mention-hover-background: hsl(141, 76%, 52%, 0.2); /* Hover background of mention */
+    --indicator-selected-border: hsl(0, 0%, 45%); /* Border of selected */
+    --indicator-selected-background: hsl(0, 0%, 45%, 0.5); /* Background of selected */
+    --indicator-selected-hover-background: hsl(0, 0%, 45%, 0.4); /* Hover background of selected */
     --indicator-connected-border: hsl(145, 35%, 55%); /* Border of connected voice channel */
     --indicator-connected-background: hsla(145, 22%, 34%, 0.3); /* Background of connected voice channel */
     --indicator-connected-hover-background: hsl(145, 22%, 34%, 0.2); /* Hover backgroundd of connected voice channel */
 
     /* background and dark colors */
-    --bg-1: hsl(0, 12%, 40%); /* dark buttons when clicked */
-    --bg-2: hsl(0, 12%, 24%); /* dark buttons */
-    --bg-3: hsl(0, 11%, 16%); /* spacing, secondary elements */
-    --bg-4: hsl(0, 11%, 9%); /* main background color */
-    --hover: hsla(345, 27%, 29%, 0.1); /* channels and buttons when hovered */
-    --active: hsla(345, 27%, 29%, 0.2); /* channels and buttons when clicked or selected */
-    --message-hover: hsla(345, 0%, 0%, 0.1); /* messages when hovered */
+    --bg-1: #333333; /* dark buttons when clicked */
+    --bg-2: #242424; /* dark buttons */
+    --bg-3: #000000; /* spacing, secondary elements */
+    --bg-4: #121212; /* main background color */
+    --hover: #1a1a1a; /* buttons when hovered */
+    --message-hover: #0d0d0d; /* messages when hovered */
 
     /* direct messages moon icon */
     /* change to block to show, none to hide */
@@ -113,7 +112,7 @@
     --moon-icon-size: auto;
 }
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background-image: url('https://raw.githubusercontent.com/Biscuit-Colorscheme/.github/main/assets/icon-dark-nobg.png');
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png');
 	background-color: transparent !important;
 	background-size: contain;
 	background-position: center;
