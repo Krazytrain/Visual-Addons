@@ -232,16 +232,31 @@ button.button_adca65:hover{
     border-radius: var(--roundness-xs);
 }
 .mainTableContainer_e23072 .container_c18ec9 {
-    background: var(--background-tertiary);
     border-radius: var(--roundness-xs);
 }
-
 .searchBar_e0840f.container_c18ec9 {
     background: var(--background-tertiary);
 }
 .browser_f542fc.container_e664f3, .messagesPopoutWrap_ac90a2{
     min-width: 520px;
 }
+/*Member tab, channel tab and role tab*/
+.row_b53f4f, .sidebarCardWrapper_e85cee, .prompt_c6b11b, .profileCard_c6b11b, .channelRow_f04d06, .mainTableContainer_e23072 {
+    background: var(--bg-overlay-3,var(--background-tertiary));
+}
+.role_c6b11b{
+    border: 2px solid var(--background-modifier-accent);
+}
+
+.optionButtonWrapper_bd5e1f.selected_bd5e1f {
+    background-color: var(--bg-4);
+    border-color: var(--accent-3);
+}
+.content_a7d72e.container_f1fd9c .container_c18ec9 {
+    background: var(--background-tertiary);
+    border-radius: var(--roundness-xs);
+}
+
 /*Fix panels*/
 .sidebar_a4d4d9{
     row-gap: 0px;
