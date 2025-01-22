@@ -120,7 +120,8 @@ button.button_adca65:hover{
 }
 .container_b2ca13 .avatar_b2ca13{
     margin-left: -1px!important;
-    margin-top: 5px!important;
+    margin-top: 2px!important;
+    scale: 150%;
 }
 .avatarWrapper_b2ca13:hover{
     background: transparent!important;
