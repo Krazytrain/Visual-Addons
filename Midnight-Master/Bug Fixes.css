@@ -227,6 +227,13 @@ button.button_adca65:hover{
     filter: none;
 }
 
+.contentWrapper_af5dbb .container_c18ec9 {
+    background: var(--bg-4);
+    border-radius: var(--roundness-xs);
+}
+.container_c18ec9 {
+    border-radius: var(--roundness-xs);
+}
 
 
 .searchBar_e0840f.container_c18ec9 {
