@@ -16,7 +16,7 @@ You can also download the file which gives you more options to edit the theme in
 > [!IMPORTANT]  
 > make sure to enable dark mode in discord settings for the theme to apply properly!
 > (if you want light mode customize the theme color variables yourself)
-### Midnight
+### [Midnight](https://github.com/Krazytrain/Midnight/blob/main/Midnight-Default.css)
 ```
 @import url('https://krazytrain.github.io/Midnight/Midnight-Default.css');
 ```
