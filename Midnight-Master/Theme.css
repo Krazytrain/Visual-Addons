@@ -18,7 +18,7 @@
 	/* corner roundness (border-radius) */
 	--roundness-xl: 22px; /* roundness of big panel outer corners */
 	--roundness-l: 20px; /* popout panels */
-	--roundness-m: 4px; /* smaller panels, images, embeds */
+	--roundness-m: 16px; /* smaller panels, images, embeds */
 	--roundness-s: 12px; /* members, settings inputs */
 	--roundness-xs: 10px; /* channels, buttons */
 	--roundness-xxs: 8px; /* searchbar, small elements */
