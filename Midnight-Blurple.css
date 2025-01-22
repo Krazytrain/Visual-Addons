@@ -9,6 +9,7 @@
 ==================================================*/
 @import url('https://krazytrain.github.io/Midnight/Midnight-Master/Master.css');
 :root { 
+     --theme-name: 'Blurple';
 /*=================================================
 =               Hide Button Options               =
 =     If you want to hide a button put "none"     =
