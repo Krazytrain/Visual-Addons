@@ -17,7 +17,7 @@ You can also download the file which gives you more options to edit the theme in
 ```
 @import url('https://krazytrain.github.io/Midnight/Midnight-Default.css');
 ```
-![alt text](https://i.postimg.cc/5txq1Vjn/imgonline-com-ua-twotoone-b-Qil-Ee-HF0-Fe-A1-X.jpg)
+![alt text](https://i.postimg.cc/TPDGRZS5/midnight-main.png)
 ### Blurple
 ```
 @import url('https://krazytrain.github.io/Midnight/Midnight-Blurple.css');
