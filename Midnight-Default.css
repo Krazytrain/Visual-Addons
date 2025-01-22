@@ -59,11 +59,10 @@
 ==================================================*/
 
     /* color of status indicators and window controls */
-    --online-indicator: hsl(190, 70%, 48%); /* change to #23a55a for default green */
+    --online-indicator: hsl(108, 70%, 48%); /* change to #23a55a for default green */
     --dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
     --idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
     --streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
-    --offline-indicator: hsl(223, 6%, 53%); /* change to #80848e for default gray */
 
     /* accent colors */
     --accent-1: hsl(190, 70%, 60%); /* links */
