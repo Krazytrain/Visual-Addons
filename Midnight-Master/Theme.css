@@ -763,7 +763,11 @@ button.button_dd4f85 /* small buttons */,
 	width: 4px;
 	border-radius: 4px;
 }
-
+/* Embeds */
+.embedFull_b0068a {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 /* server selected marker */
 .item_c4cd66 {
 	width: 4px;
