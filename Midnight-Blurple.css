@@ -63,7 +63,6 @@
     --dnd-indicator: hsl(359, 86%, 60%); /* change to #f23f43 for default red */
     --idle-indicator: hsl(40, 86%, 57%); /* change to #f0b232 for default yellow */
     --streaming-indicator: hsl(262, 47%, 40%); /* change to #593695 for default purple */
-    --offline-indicator: hsl(223, 6%, 53%); /* change to #80848e for default gray */
 
     /* accent colors */
     --accent-1: hsl(235, 100%, 70%); /* links */
