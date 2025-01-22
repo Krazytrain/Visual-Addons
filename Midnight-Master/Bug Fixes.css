@@ -228,8 +228,8 @@ button.button_adca65:hover{
 }
 
 .contentWrapper_af5dbb .container_c18ec9 {
-    background: var(--bg-4);
-    border-radius: var(--roundness-xs);
+    background: var(--bg-4)!important;
+    border-radius: var(--roundness-xs)!important;
 }
 .container_c18ec9 {
     border-radius: var(--roundness-xs);
