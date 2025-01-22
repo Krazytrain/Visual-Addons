@@ -9,8 +9,7 @@
 ==================================================*/
 @import url('https://krazytrain.github.io/Midnight/Midnight-Master/Master.css');
 :root { 
-    /* top left corner text */
-	  --corner-text: 'Biscuit';
+    --theme-name: 'Biscuit';
 /*=================================================
 =               Hide Button Options               =
 =     If you want to hide a button put "none"     =
@@ -59,28 +58,28 @@
 =                                                 =
 ==================================================*/
 
-  	/* color of status indicators and window controls */
-  	--online-indicator: #d0d694; /* change to #23a55a for default green */
-	  --dnd-indicator: #cf223e; /* change to #f23f43 for default red */
-	  --idle-indicator: #e39c45; /* change to #f0b232 for default yellow */
-	  --streaming-indicator: #614f76; /* change to #593695 for default purple */
+    /* color of status indicators and window controls */
+    --online-indicator: #d0d694; /* change to #23a55a for default green */
+    --dnd-indicator: #cf223e; /* change to #f23f43 for default red */
+    --idle-indicator: #e39c45; /* change to #f0b232 for default yellow */
+    --streaming-indicator: #614f76; /* change to #593695 for default purple */
 
-  	/* accent colors */
-  	--accent-1: hsl(268, 20%, 65%); /* links */
-  	--accent-2: hsl(268, 20%, 60%); /* general unread/mention elements */
-  	--accent-3: hsl(268, 20%, 50%); /* accent buttons */
-  	--accent-4: hsl(268, 20%, 39%); /* accent buttons when hovered */
-  	--accent-5: hsl(268, 20%, 34%); /* accent buttons when clicked */
-	  --mention: hsla(268, 20%, 39%, 0.1); /* mentions & mention messages */
-  	--mention-hover: hsla(268, 20%, 39%, 0.05); /* mentions & mention messages when hovered */
+    /* accent colors */
+    --accent-1: hsl(268, 20%, 65%); /* links */
+    --accent-2: hsl(268, 20%, 60%); /* general unread/mention elements */
+    --accent-3: hsl(268, 20%, 50%); /* accent buttons */
+    --accent-4: hsl(268, 20%, 39%); /* accent buttons when hovered */
+    --accent-5: hsl(268, 20%, 34%); /* accent buttons when clicked */
+    --mention: hsla(268, 20%, 39%, 0.1); /* mentions & mention messages */
+    --mention-hover: hsla(268, 20%, 39%, 0.05); /* mentions & mention messages when hovered */
 
-  	/* text colors */
-  	--text-0: var(--text-2); /* text on colored elements */
-	  --text-1: hsl(24, 31%, 80%); /* other normally white text */
-	  --text-2: hsl(30, 100%, 89%); /* headings and important text */
-	  --text-3: hsl(24, 31%, 80%); /* normal text */
-  	--text-4: hsl(0, 12%, 66%); /* icon buttons and channels */
-  	--text-5: hsl(0, 12%, 56%); /* muted channels/chats and timestamps */
+    /* text colors */
+    --text-0: var(--text-2); /* text on colored elements */
+    --text-1: hsl(24, 31%, 80%); /* other normally white text */
+    --text-2: hsl(30, 100%, 89%); /* headings and important text */
+    --text-3: hsl(24, 31%, 80%); /* normal text */
+    --text-4: hsl(0, 12%, 66%); /* icon buttons and channels */
+    --text-5: hsl(0, 12%, 56%); /* muted channels/chats and timestamps */
 
     /* Message indicator colors */
     --indicator-hover: var(--hover); /* Hover color */
@@ -97,21 +96,21 @@
     --indicator-connected-background: hsla(145, 22%, 34%, 0.3); /* Background of connected voice channel */
     --indicator-connected-hover-background: hsl(145, 22%, 34%, 0.2); /* Hover backgroundd of connected voice channel */
 
-	  /* background and dark colors */
-	  --bg-1: hsl(0, 12%, 40%); /* dark buttons when clicked */
-	  --bg-2: hsl(0, 12%, 24%); /* dark buttons */
-	  --bg-3: hsl(0, 11%, 16%); /* spacing, secondary elements */
-	  --bg-4: hsl(0, 11%, 9%); /* main background color */
-	  --hover: hsla(345, 27%, 29%, 0.1); /* channels and buttons when hovered */
-  	--active: hsla(345, 27%, 29%, 0.2); /* channels and buttons when clicked or selected */
-  	--message-hover: hsla(345, 0%, 0%, 0.1); /* messages when hovered */
+    /* background and dark colors */
+    --bg-1: hsl(0, 12%, 40%); /* dark buttons when clicked */
+    --bg-2: hsl(0, 12%, 24%); /* dark buttons */
+    --bg-3: hsl(0, 11%, 16%); /* spacing, secondary elements */
+    --bg-4: hsl(0, 11%, 9%); /* main background color */
+    --hover: hsla(345, 27%, 29%, 0.1); /* channels and buttons when hovered */
+    --active: hsla(345, 27%, 29%, 0.2); /* channels and buttons when clicked or selected */
+    --message-hover: hsla(345, 0%, 0%, 0.1); /* messages when hovered */
 
     /* direct messages moon icon */
-	  /* change to block to show, none to hide */
-	  --discord-icon: none; /* discord icon */
-	  --moon-icon: none; /* moon icon */
-	  --moon-icon-url: none;
-	  --moon-icon-size: auto;
+    /* change to block to show, none to hide */
+    --discord-icon: none; /* discord icon */
+    --moon-icon: none; /* moon icon */
+    --moon-icon-url: none;
+    --moon-icon-size: auto;
 }
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
 	background-image: url('https://raw.githubusercontent.com/Biscuit-Colorscheme/.github/main/assets/icon-dark-nobg.png');
