@@ -30,7 +30,7 @@ You can also download the file which gives you more options to edit the theme in
 ![alt text](https://i.postimg.cc/Qx7D6d7G/screenshot-129.png)
 ### Night Owl
 ```
-@import url('https://krazytrain.github.io/Midnight/Midnight-Night-Owl.css);
+@import url('https://krazytrain.github.io/Midnight/Midnight-Night-Owl.css');
 ```
 ![alt text](https://i.postimg.cc/Qx7D6d7G/screenshot-129.png)
 ### Nocturne
