@@ -1,9 +1,6 @@
 /*=============================================
 =                  Bug Fixes                  =
 =============================================*/
-.wrapper_fea3ef.guilds_a4d4d9 {
-    margin-bottom: 210px;
-}
 .guilds_a4d4d9 {
     padding-bottom: 0px!important;
 }
@@ -36,10 +33,10 @@
     bottom: 46px!important;
 }
 .wrapper_fea3ef.guilds_a4d4d9 {
-    margin-bottom: 180px;
+    margin-bottom: 190px;
 }
 .container_a4d4d9:has(.container_b2ca13 button[aria-label="Disable Game Activity"]) .wrapper_fea3ef.guilds_a4d4d9, .container_a4d4d9:has(.container_b2ca13 button[aria-label="Enable Game Activity"]) .wrapper_fea3ef.guilds_a4d4d9{
-    margin-bottom: 210px;
+    margin-bottom: 220px;
 }
 .withTagAsButton_b2ca13, .withTagless_b2ca13 {
     align-items: center;
@@ -59,7 +56,7 @@
     padding: 10px;
     background: var(--bg-surface-raised);
     border-radius: 20px;
-    padding-top: 50px;
+    padding-top: 60px;
     margin-top: -8px!important;
 }
 .popoutContainer_ad5fac {
@@ -76,7 +73,7 @@
 }
 /*User Game Button*//*FIXED*/
 .panels_a4d4d9 > .container_b2ca13 {
-    height: 135px;
+    height: 145px;
 }
 [class*="withTagAsButton"] {
     min-width: 36px !important;
@@ -120,7 +117,7 @@ button.button_adca65:hover{
 }
 .container_b2ca13 .avatar_b2ca13{
     margin-left: -1px!important;
-    margin-top: 2px!important;
+    margin-top: 10px!important;
     scale: 150%;
 }
 .avatarWrapper_b2ca13:hover{
