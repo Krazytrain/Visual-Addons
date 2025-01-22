@@ -226,10 +226,9 @@ button.button_adca65:hover{
     border-left: 1px solid var(--background-modifier-accent);
     filter: none;
 }
-.container_c18ec9{
-    background: var(--bg-4);
-    border-radius: var(--roundness-xs);
-}
+
+
+
 .searchBar_e0840f.container_c18ec9 {
     background: var(--background-tertiary);
 }
