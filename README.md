@@ -1,13 +1,5 @@
 # Default Midnight
 A well balanced, customizable midnight Discord theme with some addons. Base theme is [midnight](https://github.com/refact0r/midnight-discord) which they made a good job.
-## FAQ
-#### Does this work with Better Discord and Vencord?
-Yes this theme works with both!
-#### Does this theme have dark and light mode?
-No this theme only works with discord dark mode!
-#### Does this theme work with nitro themes?
-No this this was made around discord dark mode.
-
 Any problems with it please let us know about them as i will be keeping it updated when i can.
 
 ## How to install?
@@ -66,3 +58,10 @@ You can also download the file which gives you more options to edit the theme in
 @import url('https://krazytrain.github.io/Midnight/Midnight-Vencord.css');
 ```
 ![alt text](https://i.postimg.cc/nzmLPsZ5/vencord-main.png)
+## FAQ
+#### Does this work with Better Discord and Vencord?
+Yes this theme works with both!
+#### Does this theme have dark and light mode?
+No this theme only works with discord dark mode!
+#### Does this theme work with nitro themes?
+No this this was made around discord dark mode.
