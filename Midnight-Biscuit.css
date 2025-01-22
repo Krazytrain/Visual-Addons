@@ -59,7 +59,7 @@
 ==================================================*/
 
     /* color of status indicators and window controls */
-    --online-indicator: #d0d694; /* change to #23a55a for default green */
+    --online-indicator: var(--accent-2); /* change to #23a55a for default green */
     --dnd-indicator: #cf223e; /* change to #f23f43 for default red */
     --idle-indicator: #e39c45; /* change to #f0b232 for default yellow */
     --streaming-indicator: #614f76; /* change to #593695 for default purple */
@@ -83,15 +83,15 @@
 
     /* Message indicator colors */
     --indicator-hover: var(--hover); /* Hover color */
-    --indicator-unread-border: hsl(223, 6%, 53%); /* Border of unread */
-    --indicator-unread-background: hsl(223, 6%, 53%, 0.3); /* Background of unread */
-    --indicator-unread-hover-background: hsl(223, 6%, 53%, 0.2); /* Hover background of unread */
+    --indicator-unread-border: hsl(218, 4%, 50%); /* Border of unread */
+    --indicator-unread-background: hsl(218, 4%, 50%, 0.3); /* Background of unread */
+    --indicator-unread-hover-background: hsl(218, 4%, 50%, 0.2); /* Hover background of unread */
     --indicator-unread-mention-border: hsl(268, 20%, 60%); /* Border of mention */
     --indicator-unread-mention-background: hsl(268, 20%, 60%, 0.3); /* Background of mention */
     --indicator-unread-mention-hover-background: hsl(268, 20%, 60%, 0.2); /* Hover background of mention */
-    --indicator-selected-border: hsl(268, 19%, 57%); /* Border of selected */
-    --indicator-selected-background: hsla(268, 19%, 57%, 0.5); /* Background of selected */
-    --indicator-selected-hover-background: hsl(268, 19%, 57%, 0.4); /* Hover background of selected */
+    --indicator-selected-border: hsl(268, 20%, 50%); /* Border of selected */
+    --indicator-selected-background: hsla(268, 20%, 50%, 0.5); /* Background of selected */
+    --indicator-selected-hover-background: hsl(2268, 20%, 50%, 0.4); /* Hover background of selected */
     --indicator-connected-border: hsl(145, 35%, 55%); /* Border of connected voice channel */
     --indicator-connected-background: hsla(145, 22%, 34%, 0.3); /* Background of connected voice channel */
     --indicator-connected-hover-background: hsl(145, 22%, 34%, 0.2); /* Hover backgroundd of connected voice channel */
@@ -113,9 +113,9 @@
     --moon-icon-size: auto;
 }
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background-image: url('https://raw.githubusercontent.com/Biscuit-Colorscheme/.github/main/assets/icon-dark-nobg.png');
-	background-color: transparent !important;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url('https://raw.githubusercontent.com/Biscuit-Colorscheme/.github/main/assets/icon-dark-nobg.png');
+    background-color: transparent !important;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
