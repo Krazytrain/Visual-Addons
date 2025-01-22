@@ -236,13 +236,6 @@ button.button_adca65:hover{
 .searchBar_e0840f.container_c18ec9 {
     background: var(--background-tertiary);
 }
-.group-spacing-16 .groupStart_d5deea{
-    padding-top: 8px;
-    padding-bottom: 12px;
-}
-.group-spacing-16 .groupStart_d5deea {
-    --custom-group-spacing-start: 6px;
-}
 .browser_f542fc.container_e664f3, .messagesPopoutWrap_ac90a2{
     min-width: 520px;
 }
