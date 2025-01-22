@@ -1,5 +1,5 @@
 # Default Midnight
-A well balanced, customizable midnight Discord theme with some addons. Base theme is [midnight](https://github.com/refact0r/midnight-discord) which has made a good job on the theme.
+A well balanced, customizable midnight Discord theme with some addons. Base theme is [midnight](https://github.com/refact0r/midnight-discord) which they made a good job.
 ## FAQ
 #### Does this work with Better Discord and Vencord?
 Yes this theme works with both!
