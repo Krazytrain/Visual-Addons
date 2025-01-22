@@ -83,15 +83,15 @@
 
     /* Message indicator colors */
     --indicator-hover: var(--hover); /* Hover color */
-    --indicator-unread-border: hsl(223, 6%, 53%); /* Border of unread */
-    --indicator-unread-background: hsl(223, 6%, 53%, 0.3); /* Background of unread */
-    --indicator-unread-hover-background: hsl(223, 6%, 53%, 0.2); /* Hover background of unread */
+    --indicator-unread-border: hsl(218, 4%, 50%); /* Border of unread */
+    --indicator-unread-background: hsl(218, 4%, 50%, 0.3); /* Background of unread */
+    --indicator-unread-hover-background: hsl(218, 4%, 50%, 0.2); /* Hover background of unread */
     --indicator-unread-mention-border: hsl(235, 83%, 59%); /* Border of mention */
     --indicator-unread-mention-background: hsl(235, 83%, 59%, 0.3); /* Background of mention */
     --indicator-unread-mention-hover-background: hsl(235, 83%, 59%, 0.2); /* Hover background of mention */
-    --indicator-selected-border: hsl(224, 19%, 57%); /* Border of selected */
-    --indicator-selected-background: hsla(224, 19%, 57%, 0.5); /* Background of selected */
-    --indicator-selected-hover-background: hsl(224, 19%, 57%, 0.4); /* Hover background of selected */
+    --indicator-selected-border: hsl(235, 56%, 59%); /* Border of selected */
+    --indicator-selected-background: hsl(235, 56%, 59%, 0.5); /* Background of selected */
+    --indicator-selected-hover-background: hsl(235, 56%, 59%, 0.4); /* Hover background of selected */
     --indicator-connected-border: hsl(145, 35%, 55%); /* Border of connected voice channel */
     --indicator-connected-background: hsla(145, 22%, 34%, 0.3); /* Background of connected voice channel */
     --indicator-connected-hover-background: hsl(145, 22%, 34%, 0.2); /* Hover backgroundd of connected voice channel */
@@ -104,4 +104,18 @@
     --hover: hsla(237, 18%, 53%, 0.1); /* channels and buttons when hovered */
     --active: hsla(235, 15%, 53%, 0.0); /* channels and buttons when clicked or selected */
     --message-hover: hsla(240, 0%, 0%, 0.1); /* messages when hovered */
+
+    /* direct messages moon icon */
+    /* change to block to show, none to hide */
+    --discord-icon: none; /* discord icon */
+    --moon-icon: none; /* moon icon */
+    --moon-icon-url: none;
+    --moon-icon-size: auto;
+}
+.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
+	background-image: url('https://www.svgrepo.com/show/353655/discord-icon.svg');
+	background-color: transparent !important;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
