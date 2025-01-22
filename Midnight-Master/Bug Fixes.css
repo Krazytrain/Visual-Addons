@@ -232,7 +232,7 @@ button.button_adca65:hover{
     border-radius: var(--roundness-xs)!important;
 }
 .container_c18ec9 {
-    border-radius: var(--roundness-xs);
+    border-radius: var(--roundness-xs)!important;
 }
 
 
