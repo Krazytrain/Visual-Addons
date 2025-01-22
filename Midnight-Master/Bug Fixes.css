@@ -232,6 +232,10 @@ button.button_adca65:hover{
     border-radius: var(--roundness-xs);
 }
 .mainTableContainer_e23072 .container_c18ec9 {
+    background: var(--bg-4);
+    border-radius: var(--roundness-xs);
+}
+.container_c18ec9 {
     border-radius: var(--roundness-xs);
 }
 .searchBar_e0840f.container_c18ec9 {
