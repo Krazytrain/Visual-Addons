@@ -13,8 +13,25 @@
 
 	/* Version Number */
 :root {
-    --corner-text: 'Discord Midnight v1.8';
+    --version: 'v1.8';
 }
+/* top corner title */
 [class^='wordmarkWindows'] {
     padding: 4px 0px 0px 20px;
+}
+[class^='wordmarkWindows'] > svg {
+	display: none;
+}
+[class^='wordmarkWindows']::after {
+	content: var(--theme-name) var(--version);
+	display: block;
+	position: relative;
+	height: 16px;
+	line-height: 16px;
+	font-family: var(--font);
+	font-size: 13px;
+	font-weight: 900;
+	color: var(--text-5);
+	transform: scaleX(1.2);
+	margin-left: 6px;
 }
