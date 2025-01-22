@@ -259,10 +259,10 @@ button.button_adca65:hover{
     margin-bottom: .1rem!important;
 }
 .group-spacing-16 .divider_d5deea{
-  padding-top: 6px;
+  padding-top: 0px;
 }
 .group-spacing-16 .groupStart_d5deea {
-    --custom-group-spacing-start: 2px;
+    --custom-group-spacing-start: 4px;
 }
 .group-spacing-16 .groupStart_d5deea{
     padding-top: 8px;
