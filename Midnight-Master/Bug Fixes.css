@@ -276,7 +276,7 @@ button.button_adca65:hover{
     font-size: 18px;
 }
 .cozy_f9f2ca.wrapper_f9f2ca {
-    padding-top: 2px;
+    padding-top: 2px!important;
     padding-bottom: 2px;
 }
 .group-spacing-16 .divider_d5deea.hasContent_d5deea {
@@ -285,10 +285,13 @@ button.button_adca65:hover{
 }
 
 .content_a7d72e .contents_f9f2ca .avatar_f9f2ca{
-    margin-top: -4px;
+    margin-top: -2px;
     margin-left: 1px;
 }
 .content_a7d72e .contents_f9f2ca .avatarDecoration_f9f2ca{
-    margin-top: -4px!important;
+    margin-top: -2px!important;
     margin-left: 0.5px!important;
+}
+.messageContent_f9f2ca{
+    padding-top: 4px;
 }
