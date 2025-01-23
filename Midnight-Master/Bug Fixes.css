@@ -269,14 +269,14 @@ button.button_adca65:hover{
 /*Nicer Messages*/
 .group-spacing-16 .groupStart_d5deea {
     padding-top: 10px!important;
-    padding-bottom: 4px!important;
+    padding-bottom: 8px!important;
     --custom-group-spacing-start: 6px;
 }
 .username_f9f2ca{
     font-size: 18px;
 }
 .cozy_f9f2ca.wrapper_f9f2ca {
-    padding-top: 2px!important;
+    padding-top: 2px;
     padding-bottom: 2px;
 }
 .group-spacing-16 .divider_d5deea.hasContent_d5deea {
@@ -293,5 +293,5 @@ button.button_adca65:hover{
     margin-left: 0.5px!important;
 }
 .messageContent_f9f2ca{
-    padding-top: 4px;
+    padding-top: 0px;
 }
