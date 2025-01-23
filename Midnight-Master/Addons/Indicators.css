@@ -137,6 +137,17 @@
   background-color: var(--indicator-selected-background) !important;
 }
 
+.containerDefault_f6f816 .container_e1e976{
+    border-left: none;
+}
+.containerDefault_f6f816, .containerDragBefore_f6f816 {
+    margin: 0px 0;
+    border-radius: var(--indicator-rounding);
+    border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
+}
+.container_e1e976 .containerDefault_f6f816 {
+    border: none;
+}
 
 .categoryItem_c72b37 {
   margin: 2px 0;
