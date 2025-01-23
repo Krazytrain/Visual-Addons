@@ -241,6 +241,9 @@ button.button_adca65:hover{
 .searchBar_e0840f.container_c18ec9 {
     background: var(--background-tertiary);
 }
+.addGamePopout_fd966d .lookFilled_f6639d.select_f6639d {
+    background: var(--bg-4);
+}
 .browser_f542fc.container_e664f3, .messagesPopoutWrap_ac90a2{
     min-width: 520px;
 }
