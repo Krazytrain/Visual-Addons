@@ -86,11 +86,11 @@
     --indicator-unread-background: hsl(224, 11%, 38%, 0.3); /* Background of unread */
     --indicator-unread-hover-background: hsl(224, 11%, 38%, 0.2); /* Hover background of unread */
     --indicator-unread-mention-border: hsl(190, 70%, 48%); /* Border of mention */
-    --indicator-unread-mention-background: hsl(190, 70%, 48%, 0.3); /* Background of mention */
-    --indicator-unread-mention-hover-background: hsl(190, 70%, 48%, 0.2); /* Hover background of mention */
-    --indicator-selected-border: hsl(190, 70%, 42%); /* Border of selected */
-    --indicator-selected-background: hsl(190, 70%, 42%, 0.6); /* Background of selected */
-    --indicator-selected-hover-background: hsl(190, 70%, 42%, 0.5); /* Hover background of selected */
+    --indicator-unread-mention-background: hsl(224, 11%, 38%, 0.3); /* Background of mention */
+    --indicator-unread-mention-hover-background: hsl(224, 11%, 38%, 0.2); /* Hover background of mention */
+    --indicator-selected-border: hsl(220, 2%, 64%); /* Border of selected */
+    --indicator-selected-background: hsl(220, 2%, 64%, 0.3); /* Background of selected */
+    --indicator-selected-hover-background: hsl(220, 2%, 64%, 0.2); /* Hover background of selected */
     --indicator-connected-border: hsl(145, 35%, 55%); /* Border of connected voice channel */
     --indicator-connected-background: hsla(145, 22%, 34%, 0.3); /* Background of connected voice channel */
     --indicator-connected-hover-background: hsl(145, 22%, 34%, 0.2); /* Hover backgroundd of connected voice channel */
