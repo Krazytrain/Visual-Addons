@@ -187,9 +187,11 @@ button.button__67645:hover{
 
 
 /*Status Box*/
-.outer_ab8609.biteSize_ab8609::after, .outer_ab8609:before{
+.outer_ab8609.biteSize_ab8609::after, .outer_ab8609:before, .outer_ab8609.fullSize_ab8609::after, .outer_ab8609::before{
     display: none;
 }
+
+
 /*Server Side Bar*/
 [style="height: 135px;"]{
   height: 110px!important;
