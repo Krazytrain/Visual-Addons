@@ -18,44 +18,44 @@ button[aria-label="Open GIF picker"] {
 button[aria-label="Select emoji"] {
     display: var(--emoji-button);
 }
-.channelAppLauncher_df39bd{
+.channelAppLauncher_e6e74f{
     display: var(--app-launcher-button);
 }
 /* DM top bar buttons */
-.toolbar_fc4f04 [aria-label="Start Voice Call"] {
+.toolbar__9293f [aria-label="Start Voice Call"] {
   display: var(--voice-call-button);
 }
-.toolbar_fc4f04 [aria-label="Start Video Call"] {
+.toolbar__9293f [aria-label="Start Video Call"] {
   display: var(--video-call-button);
 }
-.toolbar_fc4f04 [aria-label="Show User Profile (Unavailable)"] {
+.toolbar__9293f [aria-label="Show User Profile (Unavailable)"] {
   display: var(--user-profile-button);
 }
-.toolbar_fc4f04 [aria-label="Show User Profile"] {
+.toolbar__9293f [aria-label="Show User Profile"] {
   display: var(--user-profile-button);
 }
-.toolbar_fc4f04 [aria-label="Hide User Profile"] {
+.toolbar__9293f [aria-label="Hide User Profile"] {
   display: var(--user-profile-button);
 }
-.toolbar_fc4f04 [aria-label="Add Friends to DM"] {
+.toolbar__9293f [aria-label="Add Friends to DM"] {
   display: var(--create-group-button);
 }
 
 /* Server top bar buttons */
-.toolbar_fc4f04 [aria-label="Notification Settings"] {
+.toolbar__9293f [aria-label="Notification Settings"] {
   display: var(--server-notification-button);
 }
-.toolbar_fc4f04 [aria-label="Threads"] {
+.toolbar__9293f [aria-label="Threads"] {
   display: var(--server-thread-button);
 }
-.toolbar_fc4f04 [aria-label="Pinned Messages"] {
+.toolbar__9293f [aria-label="Pinned Messages"] {
   display: var(--server-pin-button);
 }
-.toolbar_fc4f04 [aria-label="Hide Member List"] {
+.toolbar__9293f [aria-label="Hide Member List"] {
   display: var(--server-hide-memberlist-button);
 }
 /* Friend page buttons */
-.friendsButtonContainer_f0963d{
+.friendsButtonContainer__35e86{
     display: var(--friends-button);
 }
 [href="/store"]{
@@ -69,14 +69,14 @@ button[aria-label="Select emoji"] {
 {
   display: var(--message-requests-button);
 }
-.container_e5a9ed {
+.container__675e5 {
     display: var(--play-again-buttons);
 }
 /* Server List buttons */
-.footer_d71945 {
+.footer__214dc {
   display: var(--server-discoverable-button);
 }
-.tutorialContainer_c96c45{
+.tutorialContainer__650eb{
     display: var(--server-create-button);
 }
 
@@ -85,17 +85,17 @@ button[aria-label="Select emoji"] {
 div[class^="buttonContainer"]>div>div {
     >div[aria-label^="Click to react with"],
     >div[aria-label^="Click to remove"],
-    .separator_e986d9{
+    .separator_f84418{
         display: var(--reactions-on-hover-message);
     }
 }
-.popover_cf8aee.avatarPopover_cf8aee.wrapper_f7e168{
+.popover__2d0ab.avatarPopover__2d0ab.wrapper_f7ecac{
     display: var(--reactions-on-hover-message);
 }
-.recentsIcon_ea0547 [aria-label="Inbox"] {
+.recentsIcon_c99c29 [aria-label="Inbox"] {
   display: var(--inbox-button);
 }
 [class^=membersGroup_]:has([d^="M10.56 1.1c-.46.05-.7.53-.64.98.18"]),
-div:not([class]):has([class^=facePile_]), .membersGroup_cbd271.container_a5ad5c.text_a5ad5c:has(.headerContainer_bc6acb) {
+div:not([class]):has([class^=facePile_]), .membersGroup_c8ffbb.container__13cf1.text__13cf1:has(.headerContainer__095fe) {
     display: var(--activity-list-buttons);
 }
