@@ -339,3 +339,20 @@ button.button__67645:hover{
 .modInfoItem__96c0b:not(:last-child) {
     margin-bottom: 0px;
 }
+/*Hide Emojis until hover*/
+[class^=chat_] [class*=textArea_] {
+  margin-right: 24px;
+  +[class^=buttons_] {
+    position: absolute;
+    right: 0px;
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    &:not(:hover)>:not(:last-child) {
+      display: none;
+    }
+    /* Send message button fix */
+    &:not(:hover)>[class^=container_] button>div {
+      margin-left: 8px;
+    }
+  }
+}
