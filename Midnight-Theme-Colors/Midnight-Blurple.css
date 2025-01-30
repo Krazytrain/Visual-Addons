@@ -113,7 +113,7 @@
 }
 .childWrapper__6e9f8:has(> svg:not(.favoriteIcon_c9fddf)) {
     background-image: url('https://www.svgrepo.com/show/353655/discord-icon.svg');
-    background-color: transparent;
+    background-color: transparent !important;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
