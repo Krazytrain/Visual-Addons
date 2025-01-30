@@ -4,9 +4,9 @@ Any problems with this addon let us know about them as i will be keeping it upda
 
 ## How to install?
 Click copy and paste it into your quick css. Pick only one that you wanna use.
-You can also download the file which gives you more options to edit the theme including removing buttons and other part of discord.
+You can also download the file which gives you more options to edit the theme including removing buttons and other parts of discord.
 > [!IMPORTANT]  
-> make sure to enable dark mode in discord settings for the theme to apply properly!
+> Make sure to enable dark mode in discord settings for the theme to apply properly!
 > (if you want light mode customize the theme color variables yourself)
 ### [Midnight](https://github.com/Krazytrain/Midnight/blob/main/Midnight-Default.css)
 ```
