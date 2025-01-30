@@ -112,7 +112,7 @@
     --moon-icon-url: none;
     --moon-icon-size: auto;
 }
-.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
+.childWrapper__6e9f8:has(> svg:not(.favoriteIcon_c9fddf)) {
 	background-image: url('https://www.svgrepo.com/show/353655/discord-icon.svg');
 	background-color: transparent !important;
 	background-size: contain;
