@@ -297,3 +297,13 @@ button.button__67645:hover{
 .messageContent_c19a55{
     padding-top: 0px;
 }
+/*Mod View*/
+.custom-profile-theme .inner_c0bea0{
+    background: var(--bg-overlay-chat, var(--background-primary));
+}
+.theme-dark.custom-theme-background, .theme-light.custom-theme-background{
+    background: var(--bg-overlay-chat, var(--background-primary));
+}
+.sidebarContainer__656be .outer_c0bea0{
+    border-radius: var(--roundness-x1);
+}
