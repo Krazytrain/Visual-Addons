@@ -268,7 +268,16 @@ button.button__67645:hover{
 .chat_f75fb0:has(.callContainer_cb9592) .content_f75fb0 .members_c8ffbb.thin_d125d2, .chat_f75fb0:has(.callContainer_cb9592) .content_f75fb0 .chatContent_f75fb0 {
     border-radius: var(--roundness-xl);
 }
+
 /*Nicer Messages*/
+.group-spacing-16 .groupStart__5126c {
+    --custom-group-spacing-start: 0rem;
+}
+.group-spacing-16 .divider__5126c.beforeGroup__5126c {
+    margin-bottom: 10px;
+    margin-top: 0;
+    top: 0.5rem;
+}
 .group-spacing-16 .groupStart__5126c {
     padding-top: 10px!important;
     padding-bottom: 8px!important;
@@ -280,9 +289,13 @@ button.button__67645:hover{
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.messagesPopoutWrap__45690 .cozy_c19a55.wrapper_c19a55 {
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
 .group-spacing-16 .divider__5126c.hasContent__5126c {
     margin-top: 1.5rem;
-    margin-bottom: .1rem!important;
+    margin-bottom: .5rem!important;
 }
 
 .content_f75fb0 .contents_c19a55 .avatar_c19a55{
@@ -295,6 +308,16 @@ button.button__67645:hover{
 }
 .messageContent_c19a55{
     padding-top: 0px;
+}
+
+.font-size-16 .cozy_c19a55.hasThread_c19a55:after{
+    width: 2rem;
+    left: 2.2rem;
+    top: 3.5rem;
+    bottom: 35px;
+}
+.font-size-16 .cozy_c19a55.hasThread_c19a55.hasReply_c19a55:after{
+    top: 4.975rem;
 }
 /*Mod View*/
 .custom-profile-theme .inner_c0bea0{
