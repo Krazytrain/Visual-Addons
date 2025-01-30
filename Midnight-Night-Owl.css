@@ -111,7 +111,7 @@
     --moon-icon-url: none;
     --moon-icon-size: auto;
 }
-.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
+.childWrapper__6e9f8:has(> svg:not(.favoriteIcon_c9fddf)) {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Owl_-_Lorc_-_game-icons.svg');
     background-color: transparent !important;
     background-size: contain;
