@@ -7,7 +7,6 @@ Click copy and paste it into your quick css. Pick only one that you wanna use.
 You can also download the file which gives you more options to edit the theme including removing buttons and other parts of discord.
 > [!IMPORTANT]  
 > Make sure to enable dark mode in discord settings for the theme to apply properly!
-> (if you want light mode customize the theme color variables yourself)
 ### [Midnight](https://github.com/Krazytrain/Midnight/blob/main/Midnight-Default.css)
 ```
 @import url('https://krazytrain.github.io/Midnight/Midnight-Default.css');
