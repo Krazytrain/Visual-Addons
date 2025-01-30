@@ -1,6 +1,6 @@
-# Default Midnight
-A well balanced, customizable midnight Discord theme with some addons. Base theme is [midnight](https://github.com/refact0r/midnight-discord) which they made a good job.
-Any problems with it please let us know about them as i will be keeping it updated when i can.
+# Midnight Addon
+This is a well balanced, customizable midnight Discord theme with some addons. Base theme is [midnight](https://github.com/refact0r/midnight-discord) which they made a good job full credit on them for creating the base theme.
+Any problems with this addon let us know about them as i will be keeping it updated when i can.
 
 ## How to install?
 Click copy and paste it into your quick css. Pick only one that you wanna use.
