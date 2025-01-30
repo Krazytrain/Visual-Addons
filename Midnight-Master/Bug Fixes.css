@@ -305,5 +305,14 @@ button.button__67645:hover{
     background: var(--bg-overlay-chat, var(--background-primary));
 }
 .sidebarContainer__656be .outer_c0bea0{
-    border-radius: var(--roundness-x1);
+    border-radius: 22px;
+}
+.container__34940, .container__3a5a1{
+    border-radius: 22px!important;
+}
+.modInfoItemContainer__96c0b{
+    border-radius: 12px;
+}
+.modInfoItem__96c0b:not(:last-child) {
+    margin-bottom: 0px;
 }
