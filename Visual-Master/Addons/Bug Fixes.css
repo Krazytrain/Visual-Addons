@@ -88,3 +88,7 @@
     margin-top: 0!important;
     top: .5rem!important;
 }
+/*Status Box*/
+.outer_ab8609.biteSize_ab8609::after, .outer_ab8609:before, .outer_ab8609.fullSize_ab8609::after, .outer_ab8609::before{
+    display: none;
+}
