@@ -59,9 +59,10 @@
 .name__2ea32, .title__9293f, .title__9293f {
     text-transform: capitalize !important;
 }
+
 /* Background */
 .member_c8ffbb{
-    background: transparent;
+    background: transparent!important;
 }
 /* Side bar background */
 .sidebar_c48ade, .wrapper_ef3116.guilds_c48ade, .itemsContainer_ef3116 {
