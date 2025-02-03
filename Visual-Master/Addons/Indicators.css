@@ -240,3 +240,8 @@
 .containerDragBefore_c69b6d:has(.modeConnected__2ea32 .unread__2ea32.unreadImportant__2ea32) .link__2ea32 svg {
   color: var(--indicator-unread-mention-border);
 }
+
+/* Color of selected channel */
+.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32{
+    background: none!important;
+}
