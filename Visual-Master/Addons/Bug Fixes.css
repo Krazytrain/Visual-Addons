@@ -1,0 +1,11 @@
+/*=============================================
+=                  Bug Fixes                  =
+=============================================*/
+
+/* Voice Chat button placement */
+.button__9db96, .divider__9db96 {
+    margin-right: 2px;
+}
+.divider__9db96{
+    display: none;
+}
