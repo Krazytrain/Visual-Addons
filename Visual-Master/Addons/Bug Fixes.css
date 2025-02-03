@@ -9,3 +9,8 @@
 .divider__9db96{
     display: none;
 }
+
+/* Capitalize channel names and titles*/
+.name__2ea32, .title__9293f, .title__9293f {
+    text-transform: capitalize !important;
+}
