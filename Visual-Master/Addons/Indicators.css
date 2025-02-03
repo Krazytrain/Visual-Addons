@@ -19,9 +19,9 @@
   --indicator-selected-border: hsla(var(--blue-300-hsl)); /* Border of selected */
   --indicator-selected-background: hsla(var(--blue-300-hsl)/0.45); /* Background of selected */
   --indicator-selected-hover-background: hsla(var(--blue-300-hsl)/0.55); /* Hover background of selected */
-  --indicator-connected-border: hsl(var(--indicator-connected)); /* Border of connected voice channel */
-  --indicator-connected-background: hsla(var(--indicator-connected)/0.15); /* Background of connected voice channel */
-  --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25); /* Hover backgroundd of connected voice channel */
+  --indicator-connected-border: hsla(var(--green-300-hsl)); /* Border of connected voice channel */
+  --indicator-connected-background: hsla(var(--green-300-hsl)/0.15); /* Background of connected voice channel */
+  --indicator-connected-hover-background: hsla(var(--green-300-hsl)/0.25); /* Hover backgroundd of connected voice channel */
 }
 
 
