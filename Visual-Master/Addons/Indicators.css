@@ -2,15 +2,11 @@
 /*=============================================
 =                  Indicators                 =
 =============================================*/
-
 :root {
   --indicator-border-size: 4px;
   --indicator-border-style: solid;
   --indicator-rounding: 10px;
-}
-
-
-:root {
+  
   --indicator-hover: transparent;
   --indicator-hover: var(--background-modifier-hover); /* Hover color */
   --indicator-unread-border: hsla(var(--plum-10-hsl)); /* Border of unread */
@@ -32,7 +28,7 @@
   background: none!important;
 }
 .modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32{
-    background: none;
+    background: none!important;
 }
 
 .containerDefault_c69b6d,
