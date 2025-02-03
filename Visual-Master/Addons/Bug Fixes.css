@@ -9,3 +9,7 @@
 .divider__9db96{
     display: none;
 }
+/* Color of selected channel */
+.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32{
+    background: none!important;
+}
