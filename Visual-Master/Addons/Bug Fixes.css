@@ -78,13 +78,13 @@
 }
 /* Message spaces */
 .cozy_c19a55.wrapper_c19a55 {
-    padding-bottom: calc(var(--custom-message-spacing-vertical-container-cozy) + 8px);
+    padding-bottom: calc(var(--custom-message-spacing-vertical-container-cozy) + 8px)!important;
 }
 .group-spacing-16 .groupStart__5126c {
-    --custom-group-spacing-start: 0.2rem;
+    --custom-group-spacing-start: 0.2rem!important;
 }
 .group-spacing-16 .divider__5126c.beforeGroup__5126c {
-    margin-bottom: 15px;
-    margin-top: 0;
-    top: .5rem;
+    margin-bottom: 15px!important;
+    margin-top: 0!important;
+    top: .5rem!important;
 }
