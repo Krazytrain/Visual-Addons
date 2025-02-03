@@ -6,7 +6,8 @@
   --indicator-border-size: 4px;
   --indicator-border-style: solid;
   --indicator-rounding: 10px;
-  
+
+  --bg-overlay-selected: transparent;
   --indicator-hover: transparent;
   --indicator-hover: var(--background-modifier-hover); /* Hover color */
   --indicator-unread-border: hsla(var(--plum-10-hsl)); /* Border of unread */
@@ -241,7 +242,3 @@
   color: var(--indicator-unread-mention-border);
 }
 
-/* Color of selected channel */
-.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32{
-    background: none!important;
-}
