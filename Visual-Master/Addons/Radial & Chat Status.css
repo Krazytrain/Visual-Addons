@@ -79,13 +79,13 @@
   fill: transparent !important;
   stroke-width: var(--rs-small-width);
 }
-#app-mount .wrapper__44b0c rect[fill="#43b581"], #app-mount .wrapper__44b0c rect[fill="#3ba55c"], #app-mount .wrapper__44b0c rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper__44b0c rect[mask*=online], #app-mount .wrapper__44b0c rect[fill*="hsl(139"], #app-mount .wrapper__44b0c rect[fill*="var(--status-green"], #app-mount .wrapper__44b0c rect[fill="#23a55a"] {
+#app-mount .wrapper__44b0c rect[fill="#44a25b"], #app-mount .wrapper__44b0c rect[fill="#3ba55c"], #app-mount .wrapper__44b0c rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper__44b0c rect[mask*=online], #app-mount .wrapper__44b0c rect[fill*="hsl(139"], #app-mount .wrapper__44b0c rect[fill*="var(--status-green"], #app-mount .wrapper__44b0c rect[fill="#23a55a"] {
   stroke: var(--online-indicator);
 }
-#app-mount .wrapper__44b0c rect[fill="#faa61a"], #app-mount .wrapper__44b0c rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper__44b0c rect[mask*=idle], #app-mount .wrapper__44b0c rect[fill*="hsl(38"], #app-mount .wrapper__44b0c rect[fill*="var(--status-yellow"], #app-mount .wrapper__44b0c rect[fill="#f0b232"] {
+#app-mount .wrapper__44b0c rect[fill="#c99656"], #app-mount .wrapper__44b0c rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper__44b0c rect[mask*=idle], #app-mount .wrapper__44b0c rect[fill*="hsl(38"], #app-mount .wrapper__44b0c rect[fill*="var(--status-yellow"], #app-mount .wrapper__44b0c rect[fill="#f0b232"] {
   stroke: var(--idle-indicator);
 }
-#app-mount .wrapper__44b0c rect[fill="#f04747"], #app-mount .wrapper__44b0c rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper__44b0c rect[fill="#ed4245"], #app-mount .wrapper__44b0c rect[mask*=dnd], #app-mount .wrapper__44b0c rect[fill*="hsl(359"], #app-mount .wrapper__44b0c rect[fill*="var(--status-red"], #app-mount .wrapper__44b0c rect[fill="#f23f43"] {
+#app-mount .wrapper__44b0c rect[fill="#d83a42"], #app-mount .wrapper__44b0c rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper__44b0c rect[fill="#ed4245"], #app-mount .wrapper__44b0c rect[mask*=dnd], #app-mount .wrapper__44b0c rect[fill*="hsl(359"], #app-mount .wrapper__44b0c rect[fill*="var(--status-red"], #app-mount .wrapper__44b0c rect[fill="#f23f43"] {
   stroke: var(--dnd-indicator);
 }
 #app-mount .wrapper__44b0c rect[fill="#593695"], #app-mount .wrapper__44b0c rect[mask*=streaming], #app-mount .wrapper__44b0c rect[fill*="var(--status-purple"] {
@@ -268,49 +268,6 @@
     width: 25px!important;
     height: 25px!important;
 }
-
-
-/*Chat Status*/
-
-.avatar_c19a55 {
-    left: -51px !important;
-}
-.avatarDecoration_c19a55{
-    margin-left: -18px!important;
-}
-
-.contents_c19a55 .avatar_c19a55 {
-    border: 4px solid transparent;
-    box-shadow: 0 0 0 2px #747f8d!important;
-}
-.contents_c19a55 .vc-platform-indicator>svg {
-    display: none!important;
-}
-.contents_c19a55:has(.vc-platform-indicator>[fill="#80848e"]) .avatar_c19a55 {
-    box-shadow: 0 0 0 2.5px #80848e!important;
-}
-.contents_c19a55:has(.vc-platform-indicator>[fill="#23a55a"]) .avatar_c19a55 {
-    box-shadow: 0 0 0 2.5px #23a55a!important;
-}
-.contents_c19a55:has(.vc-platform-indicator>[fill="#f0b232"]) .avatar_c19a55 {
-    box-shadow: 0 0 0 2.5px #f0b232!important;
-}
-.contents_c19a55:has(.vc-platform-indicator>[fill="#f23f43"]) .avatar_c19a55 {
-    box-shadow: 0 0 0 2.5px #f23f43!important;
-}
-
-.contents_c19a55:has([aria-label="Verified App"]) .avatar_c19a55 {
-    box-shadow: 0 0 0 2.5px #23a55a!important;
-}
-.avatarDecoration_c19a55{
-    margin-top: -6px !important;
-    margin-left: -18px!important;
-
-}
-
-
-
-
 
 
 /*Chat Status*/
