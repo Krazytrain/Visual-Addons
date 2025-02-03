@@ -23,18 +23,6 @@
     --message-options-button: block;
     --app-launcher-button: block;
 
-    /* DM top bar buttons */
-    --voice-call-button: block;
-    --video-call-button: block;
-    --create-group-button: block;
-    --user-profile-button: block;
-
-    /* Server top bar buttons */
-    --server-thread-button: block;
-    --server-notification-button: none;
-    --server-pin-button: block;
-    --server-hide-memberlist-button: block;
-
     /* Friend page buttons */
     --friends-button: block;
     --nitro-button: none;
@@ -48,8 +36,6 @@
 
     /* Other Buttons */
     --activity-list-buttons: block;
-    --inbox-button: block;
-    --help-button: none;
     --reactions-on-hover-message: none;
 
 /*=================================================
