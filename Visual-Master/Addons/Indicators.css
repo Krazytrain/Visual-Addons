@@ -9,41 +9,31 @@
   --indicator-rounding: 10px;
 }
 
-.theme-light {
-  --indicator-unread: var(--primary-900-hsl);
-  --indicator-unread-mention: var(--blue-300-hsl);
-  --indicator-selected: var(--primary-200-hsl);
-  --indicator-connected: var(--green-430-hsl);
-}
-
-.theme-dark {
-  --indicator-unread: var(--orange-230-hsl);
-  --indicator-unread-mention: var(--blue-300-hsl);
-  --indicator-selected: var(--primary-200-hsl);
-  --indicator-connected: var(--green-230-hsl);
-}
 
 :root {
   --indicator-hover: transparent;
-  --indicator-unread-border: hsla(var(--indicator-unread)/0.75);
-  --indicator-unread-background: hsla(var(--indicator-unread)/0.05);
-  --indicator-unread-hover-background: hsla(var(--indicator-unread)/0.10);
-  --indicator-unread-mention-border: hsl(var(--indicator-unread-mention));
-  --indicator-unread-mention-background: hsla(var(--indicator-unread-mention)/0.15);
-  --indicator-unread-mention-hover-background: hsla(var(--indicator-unread-mention)/0.25);
-  --indicator-selected-border: hsl(var(--indicator-selected));
-  --indicator-selected-background: hsla(var(--indicator-selected)/0.2);
-  --indicator-selected-hover-background: hsla(var(--indicator-selected)/0.25);
-  --indicator-connected-border: hsl(var(--indicator-connected));
-  --indicator-connected-background: hsla(var(--indicator-connected)/0.15);
-  --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25);
+  --indicator-hover: var(--background-modifier-hover); /* Hover color */
+  --indicator-unread-border: hsla(var(--plum-10-hsl)); /* Border of unread */
+  --indicator-unread-background: hsla(var(--plum-10-hsl)/0.45); /* Background of unread */
+  --indicator-unread-hover-background: hsla(var(--plum-10-hsl)/0.55); /* Hover background of unread */
+  --indicator-unread-mention-border: hsl(var(--red-400-hsl)); /* Border of mention */
+  --indicator-unread-mention-background: hsla(var(--red-400-hsl)/0.45); /* Background of mention */
+  --indicator-unread-mention-hover-background: hsla(var(--red-400-hsl)/0.55); /* Hover background of mention */
+  --indicator-selected-border: hsla(var(--blue-300-hsl)); /* Border of selected */
+  --indicator-selected-background: hsla(var(--blue-300-hsl)/0.45); /* Background of selected */
+  --indicator-selected-hover-background: hsla(var(--blue-300-hsl)/0.55); /* Hover background of selected */
+  --indicator-connected-border: hsl(var(--indicator-connected)); /* Border of connected voice channel */
+  --indicator-connected-background: hsla(var(--indicator-connected)/0.15); /* Background of connected voice channel */
+  --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25); /* Hover backgroundd of connected voice channel */
 }
 
 
 .interactive_bf202d.interactive__972a0:hover{
   background: none!important;
 }
-
+.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32{
+    background: none;
+}
 
 .containerDefault_c69b6d,
 .containerDragBefore_c69b6d {
