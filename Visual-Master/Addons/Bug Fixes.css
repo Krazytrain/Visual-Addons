@@ -59,3 +59,16 @@
 .name__2ea32, .title__9293f, .title__9293f {
     text-transform: capitalize !important;
 }
+/* Background */
+.member_c8ffbb{
+    background: transparent;
+}
+/* Side bar background */
+.sidebar_c48ade, .wrapper_ef3116.guilds_c48ade, .itemsContainer_ef3116 {
+    background: transparent!important;
+}
+.bg__960e4 {
+    background: var(--bg-overlay-2, var(--background-secondary))!important;
+}
+
+
