@@ -331,13 +331,13 @@
 .contents_c19a55:has(.vc-platform-indicator>[fill="#80848e"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--offline-indicator)!important;
 }
-.contents_c19a55:has(.vc-platform-indicator>[fill="#23a55a"]) .avatar_c19a55 {
+.contents_c19a55:has(.vc-platform-indicator>[fill="#44a25b"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
 }
-.contents_c19a55:has(.vc-platform-indicator>[fill="#f0b232"]) .avatar_c19a55 {
+.contents_c19a55:has(.vc-platform-indicator>[fill="#c99656"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--idle-indicator)!important;
 }
-.contents_c19a55:has(.vc-platform-indicator>[fill="#f23f43"]) .avatar_c19a55 {
+.contents_c19a55:has(.vc-platform-indicator>[fill="#d83a42"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--dnd-indicator)!important;
 }
 
