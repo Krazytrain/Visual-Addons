@@ -72,4 +72,7 @@
     background: var(--bg-overlay-2, var(--background-secondary))!important;
 }
 
-
+/* Spin */
+.messageSpine_c19a55:before, .repliedMessageClickableSpine_c19a55 {
+    bottom: -4px;
+}
