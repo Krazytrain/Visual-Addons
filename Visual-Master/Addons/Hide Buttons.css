@@ -42,16 +42,16 @@ button[aria-label="Select emoji"] {
 }
 
 /* Server top bar buttons */
-.toolbar__9293f [aria-label="Notification Settings"] {
+.toolbar__9293f [aria-label="Notification Settings"] .icon__9293f {
   display: var(--server-notification-button);
 }
-.toolbar__9293f [aria-label="Threads"] {
+.toolbar__9293f [aria-label="Threads"] .icon__9293f {
   display: var(--server-thread-button);
 }
-.toolbar__9293f [aria-label="Pinned Messages"] {
+.toolbar__9293f [aria-label="Pinned Messages"] .icon__9293f {
   display: var(--server-pin-button);
 }
-.toolbar__9293f [aria-label="Hide Member List"] {
+.toolbar__9293f [aria-label="Hide Member List"] .icon__9293f {
   display: var(--server-hide-memberlist-button);
 }
 /* Friend page buttons */
@@ -94,6 +94,9 @@ div[class^="buttonContainer"]>div>div {
 }
 .recentsIcon_c99c29 [aria-label="Inbox"] {
   display: var(--inbox-button);
+}
+.visual-refresh .button__85643[aria-label="Help"] {
+  display: var(--help-button);
 }
 [class^=membersGroup_]:has([d^="M10.56 1.1c-.46.05-.7.53-.64.98.18"]),
 div:not([class]):has([class^=facePile_]), .membersGroup_c8ffbb.container__13cf1.text__13cf1:has(.headerContainer__095fe) {
