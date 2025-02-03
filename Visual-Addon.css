@@ -65,18 +65,17 @@
     --streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
 
     /* Message indicator colors */
-    --indicator-hover: var(--hover); /* Hover color */
-    --indicator-unread-border: hsl(224, 11%, 38%); /* Border of unread */
-    --indicator-unread-background: hsl(224, 11%, 38%, 0.3); /* Background of unread */
-    --indicator-unread-hover-background: hsl(224, 11%, 38%, 0.2); /* Hover background of unread */
-    --indicator-unread-mention-border: hsl(190, 70%, 48%); /* Border of mention */
-    --indicator-unread-mention-background: hsl(224, 11%, 38%, 0.3); /* Background of mention */
-    --indicator-unread-mention-hover-background: hsl(224, 11%, 38%, 0.2); /* Hover background of mention */
-    --indicator-selected-border: hsl(220, 2%, 64%); /* Border of selected */
-    --indicator-selected-background: hsl(220, 2%, 64%, 0.3); /* Background of selected */
-    --indicator-selected-hover-background: hsl(220, 2%, 64%, 0.2); /* Hover background of selected */
-    --indicator-connected-border: hsl(145, 35%, 55%); /* Border of connected voice channel */
-    --indicator-connected-background: hsla(145, 22%, 34%, 0.3); /* Background of connected voice channel */
-    --indicator-connected-hover-background: hsl(145, 22%, 34%, 0.2); /* Hover backgroundd of connected voice channel */
-
+    --indicator-hover: var(--background-modifier-hover); /* Hover color */
+    --indicator-unread-border: hsla(var(--plum-10-hsl)); /* Border of unread */
+    --indicator-unread-background: hsla(var(--plum-10-hsl)/0.45); /* Background of unread */
+    --indicator-unread-hover-background: hsla(var(--plum-10-hsl)/0.55); /* Hover background of unread */
+    --indicator-unread-mention-border: hsl(var(--red-400-hsl)); /* Border of mention */
+    --indicator-unread-mention-background: hsla(var(--red-400-hsl)/0.45); /* Background of mention */
+    --indicator-unread-mention-hover-background: hsla(var(--red-400-hsl)/0.55); /* Hover background of mention */
+    --indicator-selected-border: hsla(var(--blue-300-hsl)); /* Border of selected */
+    --indicator-selected-background: hsla(var(--blue-300-hsl)/0.45); /* Background of selected */
+    --indicator-selected-hover-background: hsla(var(--blue-300-hsl)/0.55); /* Hover background of selected */
+    --indicator-connected-border: hsl(var(--indicator-connected)); /* Border of connected voice channel */
+    --indicator-connected-background: hsla(var(--indicator-connected)/0.15); /* Background of connected voice channel */
+    --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25); /* Hover backgroundd of connected voice channel */
 }
