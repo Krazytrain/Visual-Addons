@@ -21,42 +21,6 @@ button[aria-label="Select emoji"] {
 .channelAppLauncher_e6e74f{
     display: var(--app-launcher-button);
 }
-/* DM top bar buttons */
-.toolbar__9293f [aria-label="Start Voice Call"] .icon__9293f {
-  display: var(--voice-call-button);
-}
-.toolbar__9293f [aria-label="Start Video Call"] .icon__9293f {
-  display: var(--video-call-button);
-}
-.toolbar__9293f [aria-label="Show User Profile (Unavailable)"] .icon__9293f {
-  display: var(--user-profile-button);
-}
-.toolbar__9293f [aria-label="Show User Profile"] .icon__9293f {
-  display: var(--user-profile-button);
-}
-.toolbar__9293f [aria-label="Hide User Profile"] .icon__9293f {
-  display: var(--user-profile-button);
-}
-.toolbar__9293f [aria-label="Add Friends to DM"] .icon__9293f {
-  display: var(--create-group-button);
-}
-
-/* Server top bar buttons */
-.toolbar__9293f .icon__9293f {
-    margin: 6px;
-}
-.toolbar__9293f [aria-label="Notification Settings"] {
-  display: var(--server-notification-button);
-}
-.toolbar__9293f [aria-label="Threads"]  {
-  display: var(--server-thread-button);
-}
-.toolbar__9293f [aria-label="Pinned Messages"] {
-  display: var(--server-pin-button);
-}
-.toolbar__9293f [aria-label="Hide Member List"] {
-  display: var(--server-hide-memberlist-button);
-}
 /* Friend page buttons */
 .friendsButtonContainer__35e86{
     display: var(--friends-button);
@@ -94,12 +58,6 @@ div[class^="buttonContainer"]>div>div {
 }
 .popover__2d0ab.avatarPopover__2d0ab.wrapper_f7ecac{
     display: var(--reactions-on-hover-message);
-}
-.recentsIcon_c99c29 [aria-label="Inbox"] {
-  display: var(--inbox-button);
-}
-.visual-refresh .button__85643[aria-label="Help"] {
-  display: var(--help-button);
 }
 [class^=membersGroup_]:has([d^="M10.56 1.1c-.46.05-.7.53-.64.98.18"]),
 div:not([class]):has([class^=facePile_]), .membersGroup_c8ffbb.container__13cf1.text__13cf1:has(.headerContainer__095fe) {
