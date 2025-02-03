@@ -1,12 +1,11 @@
-# Midnight Addon
-This is a well balanced, customizable midnight Discord theme with some addons. Base theme is [midnight](https://github.com/refact0r/midnight-discord) which they made a good job full credit on them for creating the base theme.
-Any problems with this addon let us know about them as i will be keeping it updated when i can.
+# Visual Addons
+Addons for visual refresh on discord.
 
 ## How to install?
-Click copy and paste it into your quick css. Pick only one that you wanna use.
+Click copy and paste it into your quick css.
 You can also download the file which gives you more options to edit the theme including removing buttons and other parts of discord.
 > [!IMPORTANT]  
-> Make sure to enable dark mode in discord settings for the theme to apply properly!
+> Make sure to enable Visual Refresh in discord settings for the theme to apply properly!
 ### [Midnight](https://github.com/Krazytrain/Midnight/blob/main/Midnight-Default.css)
 ```
 @import url('https://krazytrain.github.io/Midnight/Midnight-Default.css');
