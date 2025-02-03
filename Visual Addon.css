@@ -1,14 +1,13 @@
 /**
- * @name Midnight Addon Default
+ * @name Visual Addons
  * @author Krazytrain
- * @description A well balanced, customizable midnight Discord theme with some addons.
+ * @description Addons for visual refresh.
  **/
 /*==================================================
-=             Main Theme Link  DONT DELETE         =
+=                Main Link  DONT DELETE            =
 ==================================================*/
 @import url('https://krazytrain.github.io/Visual-Addons/Visual-Master/Addons-Links.css');
 :root { 
-     --theme-name: 'Midnight';
 /*=================================================
 =               Hide Button Options               =
 =     If you want to hide a button put "none"     =
