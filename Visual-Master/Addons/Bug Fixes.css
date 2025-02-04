@@ -59,7 +59,10 @@
     background: var(--background-mod-subtle) !important;
     border: 1px solid var(--app-border-frame)!important;
 }
-
+/*Chat bar border */
+.visual-refresh-chat-input .accessoryBar__74017 {
+    border-top: 1px solid var(--app-border-frame, var(--background-mod-subtle));
+}
 
 /* Voice Chat button placement */
 .button__9db96, .divider__9db96 {
