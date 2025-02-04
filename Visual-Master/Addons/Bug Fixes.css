@@ -12,7 +12,6 @@
 }
 #vc-spotify-player {
     padding: 12px;
-    background-color: var(--background-base-low) !important;
     margin: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -46,6 +45,21 @@
 #vc-spotify-song-title {
     font-size: 14px;
 }
+
+/* User Panel colors */
+.visual-refresh .panels_c48ade {
+    background: var(--bg-overlay-floating, var(--background-base-low));
+}
+#vc-spotify-player, .panel__5dec7, .wrapper_e131a9 {
+    background: transparent !important;
+    border-bottom: 1px solid var(--app-border-frame)!important;
+}
+.visual-refresh.custom-theme-background .button_e131a9.buttonColor_e131a9, 
+.visual-refresh.custom-theme-background .button_e131a9 .buttonColor_e131a9 {
+    background: var(--background-mod-subtle) !important;
+    border: 1px solid var(--app-border-frame)!important;
+}
+
 
 /* Voice Chat button placement */
 .button__9db96, .divider__9db96 {
