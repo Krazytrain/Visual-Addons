@@ -109,3 +109,48 @@
 .outer_ab8609.biteSize_ab8609::after, .outer_ab8609:before, .outer_ab8609.fullSize_ab8609::after, .outer_ab8609::before{
     display: none;
 }
+/* Message Highlights */
+.theme-dark.visual-refresh.custom-theme-background .mentioned__5126c {
+    background: color-mix(in srgb, var(--background-mentioned), white 15%);
+}
+.theme-dark.visual-refresh.custom-theme-background.message__5126c.mentioned__5126c.selected__5126c, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion .message__5126c.mentioned__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion.visual-refresh .message__5126c.mentioned__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.visual-refresh .message__5126c.mentioned__5126c.selected__5126c {
+    background: color-mix(in srgb, var(--background-mentioned), white 13%);
+}
+
+.theme-dark.visual-refresh.custom-theme-background .highlighted__5126c,
+.theme-dark.visual-refresh.custom-theme-background .replying__5126c {
+    background: color-mix(in srgb, var(--background-message-highlight), white 15%);
+}
+.theme-dark.visual-refresh.custom-theme-background.message__5126c.highlighted__5126c.selected__5126c, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion .message__5126c.highlighted__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion.visual-refresh .message__5126c.highlighted__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.visual-refresh .message__5126c.highlighted__5126c.selected__5126c,
+.theme-dark.visual-refresh.custom-theme-background.message__5126c.replying__5126c.selected__5126c, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion .message__5126c.replying__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion.visual-refresh .message__5126c.replying__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.visual-refresh .message__5126c.replying__5126c.selected__5126c {
+    background: color-mix(in srgb, var(--background-message-highlight), white 13%);
+}
+
+.theme-dark.visual-refresh.custom-theme-background .ephemeral__5126c {
+    background: color-mix(in srgb, var(--brand-05a), white 15%);
+}
+.theme-dark.visual-refresh.custom-theme-background.message__5126c.ephemeral__5126c.selected__5126c, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion .message__5126c.ephemeral__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion.visual-refresh .message__5126c.ephemeral__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.visual-refresh .message__5126c.ephemeral__5126c.selected__5126c {
+    background: color-mix(in srgb, var(--brand-05a), white 13%);
+}
+
+.theme-dark.visual-refresh.custom-theme-background .automodMessage__5126c {
+    background: color-mix(in srgb, var(--background-message-automod), white 15%)!important;
+}
+.theme-dark.visual-refresh.custom-theme-background.message__5126c.automodMessage__5126c.selected__5126c, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion .message__5126c.automodMessage__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion.visual-refresh .message__5126c.automodMessage__5126c:hover, 
+.theme-dark.visual-refresh.custom-theme-background.visual-refresh .message__5126c.automodMessage__5126c.selected__5126c {
+    background: color-mix(in srgb, var(--background-message-automod), white 13%)!important;
+}
