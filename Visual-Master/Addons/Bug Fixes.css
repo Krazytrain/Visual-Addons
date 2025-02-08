@@ -93,6 +93,15 @@
 .messageSpine_c19a55:before, .repliedMessageClickableSpine_c19a55 {
     bottom: -4px;
 }
+.font-size-12 .chatContent_f75fb0 .cozy_c19a55.hasThread_c19a55:after, 
+.font-size-14 .chatContent_f75fb0 .cozy_c19a55.hasThread_c19a55:after, 
+.font-size-15 .chatContent_f75fb0 .cozy_c19a55.hasThread_c19a55:after, 
+.font-size-16 .chatContent_f75fb0 .cozy_c19a55.hasThread_c19a55:after {
+    width: 2rem;
+    left: 2.2rem;
+    top: 3.2rem;
+    margin-bottom: 8px;
+}
 /* Message spaces */
 .cozy_c19a55.wrapper_c19a55 {
     padding-bottom: calc(var(--custom-message-spacing-vertical-container-cozy) + 8px)!important;
