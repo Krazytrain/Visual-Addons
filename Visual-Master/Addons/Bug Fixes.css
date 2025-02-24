@@ -118,3 +118,11 @@
 .outer_ab8609.biteSize_ab8609::after, .outer_ab8609:before, .outer_ab8609.fullSize_ab8609::after, .outer_ab8609::before{
     display: none;
 }
+
+/*Call Container Box*/
+.visual-refresh .callContainer_cb9592{
+    border-top: none;
+}
+.videoControls_bfe55a .quickSelect_ebaca5{
+    margin-top: 10px;
+}
