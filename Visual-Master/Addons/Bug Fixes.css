@@ -126,3 +126,10 @@
 .videoControls_bfe55a .quickSelect_ebaca5{
     margin-top: 10px;
 }
+/*Typing icon*/
+#app-mount .wrapper__44b0c .pointerEvents__44b0c[x="14.5"] {
+    fill: rgba(0, 0, 0, 0.5) !important;
+    width: 30px;
+    height: 30px;
+    x: -14;
+    y: -16;
