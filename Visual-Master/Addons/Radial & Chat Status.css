@@ -280,7 +280,6 @@
 
 .contents_c19a55 .avatar_c19a55 {
     border: 4px solid transparent;
-    box-shadow: 0 0 0 2px var(--offline-indicator)!important;
 }
 .contents_c19a55 .vc-platform-indicator>svg {
     display: none!important;
