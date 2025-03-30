@@ -9,8 +9,6 @@ You can also download the file which gives you more options to edit the theme in
 ```
 @import url('https://krazytrain.github.io/Visual-Addons/Visual Addon.css');
 ```
-![alt text](https://i.postimg.cc/TPDGRZS5/midnight-main.png)
-### [Blurple](https://github.com/Krazytrain/Midnight/blob/main/Midnight-Theme-Colors/Midnight-Blurple.css)
 ## FAQ
 #### Does this work with Better Discord and Vencord?
 Yes this theme works with both!
