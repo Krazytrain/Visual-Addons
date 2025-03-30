@@ -300,6 +300,9 @@
 .contents_c19a55:has([aria-label="Verified App"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
 }
+.contents_c19a55:has(.botTag__82f07) .avatar_c19a55 {
+    box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
+}
 .avatarDecoration_c19a55{
     margin-top: 2px !important;
     margin-left: 0px!important;
