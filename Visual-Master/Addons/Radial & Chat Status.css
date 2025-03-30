@@ -284,18 +284,18 @@
 .contents_c19a55 .vc-platform-indicator>svg {
     display: none!important;
 }
-.contents_c19a55:has(.vc-platform-indicator>[fill="#80848e"]) .avatar_c19a55 {
-    box-shadow: 0 0 0 2.5px var(--offline-indicator)!important;
-}
-.contents_c19a55:has(.vc-platform-indicator>[fill="#44a25b"]) .avatar_c19a55 {
+.contents_c19a55:has(.vc-platform-indicator>[fill="#43a25a"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
 }
-.contents_c19a55:has(.vc-platform-indicator>[fill="#c99656"]) .avatar_c19a55 {
+.contents_c19a55:has(.vc-platform-indicator>[fill="#ca9654"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--idle-indicator)!important;
 }
 .contents_c19a55:has(.vc-platform-indicator>[fill="#d83a42"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--dnd-indicator)!important;
 }
+.contents_c19a55:has(.vc-platform-indicator>[fill="#83838b"]) .avatar_c19a55 {
+    box-shadow: 0 0 0 2.5px var(--offline-indicator)!important;
+}}
 
 .contents_c19a55:has([aria-label="Verified App"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
