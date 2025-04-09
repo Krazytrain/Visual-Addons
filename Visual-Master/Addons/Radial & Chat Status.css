@@ -281,13 +281,13 @@
 .contents_c19a55 .vc-platform-indicator>svg {
     display: none!important;
 }
-.contents_c19a55:has(.vc-platform-indicator>[fill="#43a25a"]) .avatar_c19a55 {
+.contents_c19a55:has(.vc-platform-indicator>[fill="#40a258"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2px var(--online-indicator)!important;
 }
-.contents_c19a55:has(.vc-platform-indicator>[fill="#ca9654"]) .avatar_c19a55 {
+.contents_c19a55:has(.vc-platform-indicator>[fill="#cc954c"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2px var(--idle-indicator)!important;
 }
-.contents_c19a55:has(.vc-platform-indicator>[fill="#d83a42"]) .avatar_c19a55 {
+.contents_c19a55:has(.vc-platform-indicator>[fill="#d83a41"]) .avatar_c19a55 {
     box-shadow: 0 0 0 2px var(--dnd-indicator)!important;
 }
 .contents_c19a55:has(.vc-platform-indicator>[fill="#83838b"]) .avatar_c19a55 {
