@@ -1,7 +1,3 @@
-/*=============================================
-=                Radial Status                =
-=============================================*/
-
 :root {
   --rs-version: "2.0.9";
   --rs-small-spacing: 2px;
@@ -49,11 +45,11 @@
   cy: 20;
 }
 #app-mount .wrapper__44b0c .pointerEvents__44b0c[x="14.5"] {
-  fill: rgba(0, 0, 0, 0.5);
-  width: 30px;
-  height: 30px;
-  x: 1;
-  y: 1;
+  fill: rgba(0, 0, 0, 0.5) !important;
+  width: var(--rs-members-width, 30px);
+  height: var(--rs-members-width, 30px);
+  x: calc(var(--rs-members-width, 30px) / 2 / -1 + 2px);
+  y: calc(var(--rs-members-width, 30px) / 2 / -1);
 }
 #app-mount .wrapper__44b0c img, #app-mount .wrapper__44b0c.avatar__91a9d {
   border-radius: var(--rs-avatar-shape);
