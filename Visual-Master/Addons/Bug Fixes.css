@@ -115,7 +115,7 @@
     top: .5rem!important;
 }
 /*Status Box*/
-.outer_ab8609.biteSize_ab8609::after, .outer_ab8609:before, .outer_ab8609.fullSize_ab8609::after, .outer_ab8609::before{
+.outer_ab8609.user-profile-popout::after, .outer_ab8609:before, .outer_ab8609.user-profile-modal::after, .outer_ab8609::before{
     display: none;
 }
 .popover__2d0ab.statusPopover__2d0ab.wrapper_f7ecac, .outer_ab8609:after{
