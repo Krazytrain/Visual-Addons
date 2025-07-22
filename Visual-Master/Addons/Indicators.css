@@ -73,10 +73,6 @@
 .containerDragBefore_c69b6d:has(.modeUnreadImportant__2ea32) .unread__2ea32 {
   display: none;
 }
-.containerDefault_c69b6d:has(.modeUnreadImportant__2ea32) .link__2ea32 svg,
-.containerDragBefore_c69b6d:has(.modeUnreadImportant__2ea32) .link__2ea32 svg {
-  color: var(--indicator-unread-border);
-}
 .containerDefault_c69b6d:has(.mentionsBadge__933a1),
 .containerDragBefore_c69b6d:has(.mentionsBadge__933a1) {
   border-left-color: var(--indicator-unread-mention-border);
