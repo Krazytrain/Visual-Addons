@@ -108,6 +108,7 @@
 }
 .group-spacing-16 .groupStart__5126c {
     --custom-group-spacing-start: 0.2rem!important;
+    padding-top: 5px;
 }
 .group-spacing-16 .divider__5126c.beforeGroup__5126c {
     margin-bottom: 15px!important;
