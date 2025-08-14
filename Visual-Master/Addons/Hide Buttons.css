@@ -3,19 +3,19 @@
 =============================================*/
 
 /* Chat bar buttons */
-button[aria-label="More message options"] {
+.button__24af7[aria-label="More message options"] {
     display: var(--message-options-button);
 }
-button[aria-label="Send a gift"] {
+.button__24af7[aria-label="Send a gift"] {
     display: var(--gift-button);
 }
-button[aria-label="Open sticker picker"] {
+.button__24af7[aria-label="Open sticker picker"] {
     display: var(--sticker-button);
 }
-button[aria-label="Open GIF picker"] {
+.button__24af7[aria-label="Open GIF picker"] {
     display: var(--gif-button);
 }
-button[aria-label="Select emoji"] {
+.button__24af7[aria-label="Select emoji"] {
     display: var(--emoji-button);
 }
 .channelAppLauncher_e6e74f{
