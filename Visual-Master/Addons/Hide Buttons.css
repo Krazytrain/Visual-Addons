@@ -2,7 +2,7 @@
 =                 Hide Buttons                =
 =============================================*/
 
-/* Chat bar buttons */
+/* Chat bar buttons *//*
 div[aria-label="More message options"] {
     display: var(--message-options-button);
 }
