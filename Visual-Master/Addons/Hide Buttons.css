@@ -3,31 +3,8 @@
 =============================================*/
 
 /* Chat bar buttons */
-div[aria-label="More message options"] {
-    display: var(--message-options-button);
-}
-div[aria-label="Send a gift"] {
-    display: var(--gift-button)!important;
-}
-div[aria-label="Open sticker picker"] {
-    display: var(--sticker-button)!important;
-}
-div[aria-label="Open GIF picker"] {
-    display: var(--gif-button)!important;
-}
-div[aria-label="Select emoji"] {
-    display: var(--emoji-button)!important;
-}
-.channelAppLauncher_e6e74f{
-    display: var(--app-launcher-button)!important;
-}
-.button__74017.button__24af7, .align-chat-input .emojiButton__74017 {
-    align-items: center;
-    color: var(--interactive-normal);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-}
+
+
 
 /* Friend page buttons */
 .friendsButtonContainer__35e86{
