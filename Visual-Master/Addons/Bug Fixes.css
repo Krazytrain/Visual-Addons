@@ -4,6 +4,11 @@
 :root {
     --album-name: none;
 }
+
+.root__6c5a1{
+  display: none;
+}
+
 .vc-spotify-button-row {
     margin-top: 7px;
 }
