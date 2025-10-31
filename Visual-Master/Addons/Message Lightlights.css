@@ -1,7 +1,9 @@
 /*=============================================
 =             Message Lightlights             =
 =============================================*/
-
+.message__5126c.selected__5126c, .theme-dark.mouse-mode.full-motion .message__5126c:hover {
+    border-radius: 10px;
+}
 /* Light Hightlights */
 .theme-light.visual-refresh .mentioned__5126c {
     background: color-mix(in srgb, var(--background-mentioned), yellow 5%);
